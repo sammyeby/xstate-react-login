@@ -1,0 +1,9 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+
+    button.submitButton, div.inputText {
+        width: 100%;
+    }
+    
+}
