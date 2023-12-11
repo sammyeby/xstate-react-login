@@ -1,2 +1,2 @@
-export { DemoAuthApp } from './AppBootstrapWithAuth'
+export { AppBootstrapWithAuth } from './AppBootstrapWithAuth'
 export { globalService } from './globalState'
