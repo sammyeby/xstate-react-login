@@ -63,7 +63,7 @@
     "sass": "^1.69.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
-    "vite-plugin-dts": "^2.1.0",
+    "vite-plugin-dts": "^3.6.4",
     "vite-tsconfig-paths": "^4.2.1"
   }
 }
