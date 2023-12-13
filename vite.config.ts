@@ -6,6 +6,10 @@ import dts from "vite-plugin-dts";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths(), dts({ rollupTypes: true })],
+  base: "/",
+  server: {
+    open: true
+  },
   build: {
     lib: {
       entry: 'src/index.ts',

@@ -98,6 +98,18 @@ const DemoSignUp = () => {
                                 className={styles.inputText}
                             />
                         </div>
+                        <div>
+                            <Field
+                                name="pin"
+                                component={TextInputField}
+                                required
+                                label="Pin"
+                                inputProps={{
+                                    maxLength: 6,
+                                }}
+                                className={styles.inputText}
+                            />
+                        </div>
                         {submitFailed && <span>Something went wrong!</span>}
                         <Box sx={{ mb: 2, mt: 2 }}>
                             <Button
